@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Problem Statement 4</title>
+    <style>
+      .div1 {
+        position: relative;
+        height: 40px;
+        width: 80%;
+        border: 2px solid rgba(16, 133, 223, 0.833);
+        font-weight: bolder;
+        background-color: rgb(156, 247, 247);
+      }
+      .div2 {
+        position: relative;
+        height: 150px;
+        width: 80%;
+        margin-left: 30px;
+        border: 2px solid rgb(254, 157, 246);
+        font-weight: bolder;
+        background-color: rgb(241, 214, 239);
+      }
+      .div3 {
+        height: 40px;
+        width: 80%;
+        border: 2px solid rgba(16, 133, 223, 0.833);
+        font-weight: bolder;
+        background-color: rgb(156, 247, 247);
+      }
+      .inner-div1 {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        left: 50%;
+        height: 30px;
+        width: 70%;
+        border: 2px solid rgb(203, 227, 20);
+        font-weight: bolder;
+        background-color: rgb(247, 244, 183);
+      }
+      .inner-div2-1 {
+        position: absolute;
+        background-color: rgb(247, 244, 183);
+        border: 2px solid rgb(203, 227, 20);
+        left: 15%;
+        height: 20%;
+        top: 20px;
+        width: 70%;
+        bottom: 50px;
+      }
+      .inner-div2-2 {
+        position: absolute;
+        background-color:rgb(247, 244, 183);
+        border: 2px solid rgb(203, 227, 20);
+        left: 10%;
+        height: 10%;
+        top: 80%;
+        width: 70%;
+        bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      Header
+      <div class="inner-div1">Content1</div>
+    </div>
+    <div class="div2">
+      Content
+      <div class="inner-div2-1">Content2</div>
+      <div class="inner-div2-2">Content3</div>
+    </div>
+    <div class="div3">Footer</div>
+  </body>
+</html>
